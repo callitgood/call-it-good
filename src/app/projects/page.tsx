@@ -67,8 +67,7 @@ export default function ProjectsPage() {
             </h2>
           </div>
           <p className="text-xl text-[#4B352A] mb-8 max-w-3xl mx-auto">
-            From the everyday to the unusual - here are some of the interesting projects we've tackled. 
-            No job is too big, too small, or too unique for us to handle.
+            From the everyday to the unusual - here are some of the interesting projects we&apos;ve tackled.             No job is too big, too small, or too unique for us to handle.
           </p>
         </div>
       </section>
@@ -168,7 +167,7 @@ export default function ProjectsPage() {
             Got a Unique Project?
           </h2>
           <p className="text-xl text-[#B2CD9C] mb-8">
-            Don't see your project type listed? We love a good challenge! Call us to discuss your specific needs.
+            Don&apos;t see your project type listed? We love a good challenge! Call us to discuss your specific needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+16122937485" className="bg-[#CA7842] text-white px-8 py-3 rounded-md text-lg hover:bg-[#B2CD9C] hover:text-[#4B352A] transition-colors">

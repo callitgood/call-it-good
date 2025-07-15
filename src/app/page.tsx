@@ -77,7 +77,7 @@ export default function Home() {
             <p className="text-xl text-[#4B352A] mb-8 max-w-3xl mx-auto">
               We know how frustrating it can be to find someone for those everyday repairs - replacing a window, 
               fixing a sink, or tackling routine maintenance. Our focus is simple: get your projects done right, 
-              at a fair price, without unnecessary complications. Your home may be complex, but getting help shouldn't be.
+              at a fair price, without unnecessary complications. Your home may be complex, but getting help shouldn&apos;t be.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="#contact" className="bg-[#4B352A] text-white px-8 py-3 rounded-md text-lg hover:bg-[#CA7842] transition-colors">
@@ -193,14 +193,17 @@ export default function Home() {
                   <div className="text-left">
                     <h3 className="text-2xl font-semibold text-[#4B352A] mb-3">Meet Ben</h3>
                     <p className="text-[#4B352A] text-lg leading-relaxed">
-                    I live in Minneapolis and know my way around our classic 1920s homes. I’ve been doing DIY projects and helping out friends, family, and neighbors for as long as I can remember. Growing up, I was surrounded by handy people who always had a project going. I've pretty much always been the friend with a truck and the tools who didn’t mind helping out.
+                    I live in Minneapolis and know my way around our classic 1920s homes. 
+                    I&apos;ve been doing DIY projects and helping out friends, family, and neighbors for as long as I can remember.
+                    Growing up, I was surrounded by handy people who always had a project going. 
+                    I&apos;ve pretty much always been the friend with a truck and the tools who didn’t mind helping out.
                     </p>
                   </div>
                 </div>
               </div>
               
               <p className="text-xl text-[#4B352A] mb-8">
-                We're dedicated to providing reliable, affordable handyman services that you can trust. 
+                We&apos;re dedicated to providing reliable, affordable handyman services that you can trust. 
                 Our commitment is simple: quality work, fair pricing, and excellent communication.
               </p>
               <div className="bg-white p-6 rounded-lg shadow-sm border border-[#CA7842] mb-8">
@@ -251,7 +254,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-[#4B352A] mb-4">Get In Touch</h2>
-              <p className="text-xl text-[#4B352A]">Ready to tackle your next project? Let's talk!</p>
+              <p className="text-xl text-[#4B352A]">Ready to tackle your next project? Let&apos;s talk!</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -260,7 +263,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <div className="bg-[#CA7842] text-white rounded-full w-10 h-10 flex items-center justify-center mr-4">
-                      <span className="text-sm"> </span>
+                      <span className="text-sm">�</span>
                     </div>
                     <div>
                       <p className="font-semibold text-[#4B352A]">Phone</p>
@@ -269,7 +272,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center">
                     <div className="bg-[#CA7842] text-white rounded-full w-10 h-10 flex items-center justify-center mr-4">
-                      <span className="text-sm"> </span>
+                      <span className="text-sm">�</span>
                     </div>
                     <div>
                       <p className="font-semibold text-[#4B352A]">Email</p>
