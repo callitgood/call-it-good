@@ -193,10 +193,7 @@ export default function Home() {
                   <div className="text-left">
                     <h3 className="text-2xl font-semibold text-[#4B352A] mb-3">Meet Ben</h3>
                     <p className="text-[#4B352A] text-lg leading-relaxed">
-                    I live in Minneapolis and know my way around our classic 1920s homes. 
-                    I’ve been doing DIY projects and helping out friends, family, and neighbors for as long as I can remember.
-                    Growing up, I was surrounded by handy people who always had a project going. 
-                    I've pretty much always been the friend with a truck and the tools who didn’t mind helping out.
+                    I live in Minneapolis and know my way around our classic 1920s homes. I’ve been doing DIY projects and helping out friends, family, and neighbors for as long as I can remember. Growing up, I was surrounded by handy people who always had a project going. I've pretty much always been the friend with a truck and the tools who didn’t mind helping out.
                     </p>
                   </div>
                 </div>
@@ -263,7 +260,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <div className="bg-[#CA7842] text-white rounded-full w-10 h-10 flex items-center justify-center mr-4">
-                      <span className="text-sm">�</span>
+                      <span className="text-sm"> </span>
                     </div>
                     <div>
                       <p className="font-semibold text-[#4B352A]">Phone</p>
@@ -272,7 +269,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center">
                     <div className="bg-[#CA7842] text-white rounded-full w-10 h-10 flex items-center justify-center mr-4">
-                      <span className="text-sm">�</span>
+                      <span className="text-sm"> </span>
                     </div>
                     <div>
                       <p className="font-semibold text-[#4B352A]">Email</p>
