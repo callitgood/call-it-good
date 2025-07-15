@@ -1,0 +1,108 @@
+// Major projects with full details and photos
+export const majorProjects = [
+  {
+    id: 1,
+    title: "Concrete Stairs Demo",
+    description: "Demolished  concrete  steps and prepared area for new construction. HSauled debris, and leveled the site for contractors.",
+    category: "Demolition & Removal",
+    image: "/projects/concretestairs_static.jpg",
+    hoverImage: "/projects/concretestairs_hover.jpg", 
+    tags: ["demolition", "concrete", "stairs", "preparation"]
+  },
+  {
+    id: 2,
+    title: "Chain Link Fence Removal",
+    description: "Complete removal of 200-foot chain link fence including concrete footings. Hauled for disposal and backfilled holes.",
+    category: "Demolition & Removal", 
+    image: "/projects/chainfence_static.jpg", 
+    hoverImage: "/projects/chainfence_hover.jpg", 
+    tags: ["demolition", "fencing", "concrete", "hauling"]
+  },
+  {
+    id: 3,
+    title: "Basement Cleanout & Organization",
+    description: "Cleared accumulated items from basement, including old appliances, furniture, and miscellaneous storage.",
+    category: "Cleanout & Organization",
+    image: "/projects/basement_static.jpg", 
+    hoverImage: "/projects/basement_hover.jpg", 
+    tags: ["cleanout", "basement", "hauling", "organization"]
+  },
+  {
+    id: 4,
+    title: "Vintage Clothes Hanger System Excavation",
+    description: "Excavated and removed old underground clothes hanger poles from 1950s backyard setup.",
+    category: "Demolition & Removal",
+    image: "/projects/hangerpost_static.jpg", 
+    hoverImage: "/projects/hangerpost_hover.jpg", 
+    tags: ["excavation", "vintage", "backyard", "historical"]
+  },
+  {
+    id: 5,
+    title: "Concrete Slop Sink Replacement",
+    description: "Replaced old concrete slop sink with new model. Removal and hookup of new plastic tub with faucet.",
+    category: "Installation & Repair",
+    image: "/projects/concretetub_static.jpg", 
+    hoverImage: "/projects/concretetub_hover.jpg", 
+    tags: ["installation", "repair", "plumbing"]
+  },
+  {
+    id: 6,
+    title: "Tree debris organization and removal",
+    description: "Organized and removed smaller cut tree branches and debris from yard after utility \"pruning\".",
+    category: "General Labor",
+    image: "/projects/treepruning_static.jpg", 
+    hoverImage: "/projects/treepruning_hover.jpg", 
+    tags: ["installation", "repair", "plumbing"]
+  }
+];
+
+// Smaller tasks - simple list format with categories for filtering
+export const smallTasks = [
+  { text: "Hauled 16-foot canoe to remote cabin in Northern Minnesota", category: "Transport & Hauling" },
+  { text: "Disssassembled, hauled and reinstalled old wooden playset from one house to another", category: "Transport & Hauling" },
+  { text: "Removed old attic insulation and debris from 1960s home", category: "Cleanout & Organization" },
+  { text: "Prepped, ordered, and spread 10 yards of mulch in backyard", category: "General Labor" },
+  { text: "Pressure washed exterior of home and driveway", category: "General Labor" },
+  { text: "Removed overgrown weeds and pressure washed walkway", category: "General Labor" },
+  { text: "Replaced broken window in basement", category: "Installation & Repair" },
+  { text: "Replaced bent garage door track and replaced worn rollers", category: "Installation & Repair" },
+  { text: "Excavated tree stump and filled with topsoil", category: "Demolition & Removal" },
+  { text: "Hauled old refrigerator and washer/dryer from basement", category: "Transport & Hauling" },
+  { text: "Cleared and organized 3-car garage full of junk", category: "Cleanout & Organization" },
+  { text: "Removed carpet and padding from 1,200 sq ft basement", category: "Demolition & Removal" },
+  { text: "Installed new storm door and weatherstripping", category: "Installation & Repair" },
+  { text: "Dug post holes for new fence installation", category: "Installation & Repair" },
+  { text: "Removed old posts and concrete footings from previous fence", category: "Demolition & Removal" },
+  { text: "Hauled away broken furniture and appliances from garage", category: "Transport & Hauling" },
+  { text: "Hauled construction debris from bathroom remodel", category: "Transport & Hauling" },
+  { text: "Removed old deck boards and prepared frame for new decking", category: "Demolition & Removal" },
+  { text: "Cleaned out clogged floor drains in basement", category: "Maintenance & Repair" },
+  { text: "Removed old window screens and installed new ones", category: "Installation & Repair" },
+  { text: "Shed cleanout and organization", category: "Cleanout & Organization" },
+  { text: "Removed old garden shed and hauled debris", category: "Demolition & Removal" },
+  { text: "Assembled metal storage shed in backyard", category: "Installation & Repair" },
+  { text: "Hauled yard waste and brush to disposal site", category: "Transport & Hauling" },
+  { text: "Removed old fence panels and posts from backyard", category: "Demolition & Removal" },
+  { text: "Motorcycle & Small engine quick fixes", category: "Maintenance & Repair" }, 
+  { text: "Scooter, Motorcycle, Lawnmower, etc hauling", category: "Transport & Hauling" }, 
+  { text: "Replaced broken light fixtures in garage", category: "Installation & Repair" },
+  { text: "Installed new shelving in basement for better organization", category: "Installation & Repair" },
+  { text: "Repaired leaky outdoor faucet and replaced washer", category: "Maintenance & Repair" },
+  { text: "Organized tools and equipment in workshop area", category: "Cleanout & Organization" },
+  { text: "Replaced worn weatherstripping on garage door", category: "Installation & Repair" },
+  { text: "Removed old carpet from upstairs bedroom", category: "Demolition & Removal" },
+  { text: "Repaired broken fence gate latch", category: "Maintenance & Repair" },
+  { text: "Organized seasonal decorations in attic", category: "Cleanout & Organization" },
+  { text: "Hauled away old mattresses and box springs", category: "Transport & Hauling" }
+];
+
+// Categories for filtering
+export const categories = [
+  "All Projects",
+  "Demolition & Removal",
+  "Cleanout & Organization", 
+  "Transport & Hauling",
+  "Installation & Repair",
+  "Maintenance & Repair",
+  "General Labor"
+];
