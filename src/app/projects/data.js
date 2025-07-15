@@ -7,7 +7,6 @@ export const majorProjects = [
     category: "Demolition & Removal",
     image: "/projects/concretestairs_static.jpg",
     hoverImage: "/projects/concretestairs_hover.jpg", 
-    tags: ["demolition", "concrete", "stairs", "preparation"]
   },
   {
     id: 2,
@@ -16,7 +15,6 @@ export const majorProjects = [
     category: "Demolition & Removal", 
     image: "/projects/chainfence_static.jpg", 
     hoverImage: "/projects/chainfence_hover.jpg", 
-    tags: ["demolition", "fencing", "concrete", "hauling"]
   },
   {
     id: 3,
@@ -25,7 +23,6 @@ export const majorProjects = [
     category: "Cleanout & Organization",
     image: "/projects/basement_static.jpg", 
     hoverImage: "/projects/basement_hover.jpg", 
-    tags: ["cleanout", "basement", "hauling", "organization"]
   },
   {
     id: 4,
@@ -34,7 +31,6 @@ export const majorProjects = [
     category: "Demolition & Removal",
     image: "/projects/hangerpost_static.jpg", 
     hoverImage: "/projects/hangerpost_hover.jpg", 
-    tags: ["excavation", "vintage", "backyard", "historical"]
   },
   {
     id: 5,
@@ -43,7 +39,6 @@ export const majorProjects = [
     category: "Installation & Repair",
     image: "/projects/concretetub_static.jpg", 
     hoverImage: "/projects/concretetub_hover.jpg", 
-    tags: ["installation", "repair", "plumbing"]
   },
   {
     id: 6,
@@ -52,7 +47,14 @@ export const majorProjects = [
     category: "General Labor",
     image: "/projects/treepruning_static.jpg", 
     hoverImage: "/projects/treepruning_hover.jpg", 
-    tags: ["installation", "repair", "plumbing"]
+  },
+  {
+    id: 7,
+    title: "Property Line Marker Location",
+    description: "Found and marked property lines markers from 100 years ago. Saving hundreds in surveying costs.",
+    category: "Installation & Repair",
+    image: "/projects/lotmarker_static.jpg", 
+    hoverImage: "/projects/lotmarker_hover.jpg", 
   }
 ];
 
