@@ -2,6 +2,8 @@
 
 import { majorProjects, smallTasks, categories } from './data.js';
 import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ProjectsPage() {
   const [activeFilter, setActiveFilter] = useState('All Projects');
@@ -32,14 +34,14 @@ export default function ProjectsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <img src="/callitgood.svg" alt="Call It Good Logo" className="h-8 w-8 mr-3" />
+              <Image src="/callitgood.svg" alt="Call It Good Logo" width={32} height={32} className="mr-3" />
               <h1 className="text-2xl font-bold text-gray-900">Call It Good</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-gray-700 hover:text-gray-900">Home</a>
-              <a href="/#services" className="text-gray-700 hover:text-gray-900">Services</a>
-              <a href="/#about" className="text-gray-700 hover:text-gray-900">About</a>
-              <a href="/#contact" className="text-gray-700 hover:text-gray-900">Contact</a>
+              <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
+              <Link href="/#services" className="text-gray-700 hover:text-gray-900">Services</Link>
+              <Link href="/#about" className="text-gray-700 hover:text-gray-900">About</Link>
+              <Link href="/#contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
             </div>
             <div className="md:hidden">
               <button className="text-gray-700 hover:text-gray-900 focus:outline-none">
@@ -61,7 +63,7 @@ export default function ProjectsPage() {
       <section className="bg-[#F0F2BD] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex justify-center items-center mb-6">
-            <img src="/callitgood.svg" alt="Call It Good Logo" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 mr-3 sm:mr-4" />
+            <Image src="/callitgood.svg" alt="Call It Good Logo" width={48} height={48} className="mr-3 sm:mr-4" />
             <h2 className="text-3xl sm:text-4xl font-bold text-[#4B352A]">
               Example Projects
             </h2>
@@ -105,14 +107,18 @@ export default function ProjectsPage() {
                   <div className="flex">
                     {/* Project Image - Left Half */}
                     <div className="aspect-square w-1/2 bg-gradient-to-br from-[#B2CD9C] to-[#F0F2BD] flex items-center justify-center overflow-hidden group relative">
-                      <img 
+                      <Image 
                         src={project.image} 
                         alt={project.title}
+                        width={300}
+                        height={300}
                         className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
                       />
-                      <img 
+                      <Image 
                         src={project.hoverImage} 
                         alt={`${project.title} in action`}
+                        width={300}
+                        height={300}
                         className="w-full h-full object-cover absolute inset-0 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
                       />
                     </div>
@@ -173,9 +179,9 @@ export default function ProjectsPage() {
             <a href="tel:+16122937485" className="bg-[#CA7842] text-white px-8 py-3 rounded-md text-lg hover:bg-[#B2CD9C] hover:text-[#4B352A] transition-colors">
               (612) 293-7485
             </a>
-            <a href="/#contact" className="border border-[#B2CD9C] text-[#B2CD9C] px-8 py-3 rounded-md text-lg hover:bg-[#B2CD9C] hover:text-[#4B352A] transition-colors">
+            <Link href="/#contact" className="border border-[#B2CD9C] text-[#B2CD9C] px-8 py-3 rounded-md text-lg hover:bg-[#B2CD9C] hover:text-[#4B352A] transition-colors">
               Request Quote
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -184,7 +190,7 @@ export default function ProjectsPage() {
       <footer className="bg-[#4B352A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex justify-center items-center mb-4">
-            <img src="/callitgood.svg" alt="Call It Good Logo" className="h-8 w-8 mr-3" />
+            <Image src="/callitgood.svg" alt="Call It Good Logo" width={32} height={32} className="mr-3" />
             <h3 className="text-2xl font-bold">Call It Good</h3>
           </div>
           <p className="text-[#B2CD9C] mb-6">Professional handyman services you can trust</p>

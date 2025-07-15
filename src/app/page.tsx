@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,12 +25,12 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center py-4">
               <div className="flex items-center">
-                <img src="/callitgood.svg" alt="Call It Good Logo" className="h-8 w-8 mr-3" />
+                <Image src="/callitgood.svg" alt="Call It Good Logo" width={32} height={32} className="mr-3" />
                 <h1 className="text-2xl font-bold text-gray-900">Call It Good</h1>
               </div>
               <div className="hidden md:flex items-center space-x-8">
                 <a href="#services" className="text-gray-700 hover:text-gray-900">Services</a>
-                <a href="/projects" className="text-gray-700 hover:text-gray-900">Projects</a>
+                <Link href="/projects" className="text-gray-700 hover:text-gray-900">Projects</Link>
                 <a href="#about" className="text-gray-700 hover:text-gray-900">About</a>
                 <a href="#contact" className="text-gray-700 hover:text-gray-900">Contact</a>
               </div>
@@ -57,7 +59,7 @@ export default function Home() {
             <div className="md:hidden bg-white border-t border-gray-200">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <a href="#services" className="block px-3 py-2 text-gray-700 hover:text-gray-900" onClick={() => setIsMenuOpen(false)}>Services</a>
-                <a href="/projects" className="block px-3 py-2 text-gray-700 hover:text-gray-900" onClick={() => setIsMenuOpen(false)}>Projects</a>
+                <Link href="/projects" className="block px-3 py-2 text-gray-700 hover:text-gray-900" onClick={() => setIsMenuOpen(false)}>Projects</Link>
                 <a href="#about" className="block px-3 py-2 text-gray-700 hover:text-gray-900" onClick={() => setIsMenuOpen(false)}>About</a>
                 <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-gray-900" onClick={() => setIsMenuOpen(false)}>Contact</a>
               </div>
@@ -69,7 +71,7 @@ export default function Home() {
         <section className="bg-[#F0F2BD] py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex justify-center items-center mb-6">
-              <img src="/callitgood.svg" alt="Call It Good Logo" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 mr-3 sm:mr-4" />
+              <Image src="/callitgood.svg" alt="Call It Good Logo" width={48} height={48} className="mr-3 sm:mr-4" />
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#4B352A]">
                 Finally, Help with the Little Things
               </h2>
@@ -86,9 +88,9 @@ export default function Home() {
               <a href="tel:+16122937485" className="border border-[#4B352A] text-[#4B352A] px-8 py-3 rounded-md text-lg hover:bg-[#B2CD9C] transition-colors">
                 (612) 293-7485
               </a>
-              <a href="/projects" className="border border-[#CA7842] text-[#CA7842] px-8 py-3 rounded-md text-lg hover:bg-[#CA7842] hover:text-white transition-colors">
+              <Link href="/projects" className="border border-[#CA7842] text-[#CA7842] px-8 py-3 rounded-md text-lg hover:bg-[#CA7842] hover:text-white transition-colors">
                 Previous Projects
-              </a>
+              </Link>
             </div>
           </div>
         </section>
@@ -176,7 +178,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <div className="flex justify-center items-center mb-6">
-                <img src="/callitgood.svg" alt="Call It Good Logo" className="h-10 w-10 mr-3" />
+                <Image src="/callitgood.svg" alt="Call It Good Logo" width={40} height={40} className="mr-3" />
                 <h2 className="text-3xl sm:text-4xl font-bold text-[#4B352A]">Call It Good</h2>
               </div>
               
@@ -184,10 +186,12 @@ export default function Home() {
               <div className="bg-white p-8 rounded-lg shadow-sm border border-[#CA7842] mb-8">
                 <div className="flex flex-col md:flex-row items-center gap-6">
                   <div className="flex-shrink-0">
-                    <img 
+                    <Image 
                       src="/ben.jpg" 
                       alt="Ben - Call It Good Owner" 
-                      className="w-32 h-32 rounded-full object-cover border-4 border-[#CA7842]"
+                      width={128}
+                      height={128}
+                      className="rounded-full object-cover border-4 border-[#CA7842]"
                     />
                   </div>
                   <div className="text-left">
@@ -323,7 +327,7 @@ export default function Home() {
         <footer className="bg-[#4B352A] text-white py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="flex justify-center items-center mb-4">
-              <img src="/callitgood.svg" alt="Call It Good Logo" className="h-8 w-8 mr-3" />
+              <Image src="/callitgood.svg" alt="Call It Good Logo" width={32} height={32} className="mr-3" />
               <h3 className="text-2xl font-bold">Call It Good</h3>
             </div>
             <p className="text-[#B2CD9C] mb-6">Professional handyman services you can trust</p>
